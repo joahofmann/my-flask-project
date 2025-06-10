@@ -1,0 +1,13 @@
+/* static/css/style.css */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+    background-color: #f0f2f5;
+    color: #333;
+}
+h1 {
+    color: #0056b3;
+}
+p {
+    line-height: 1.6;
+}

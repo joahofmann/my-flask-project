@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Editor/OS specific
+.DS_Store
+.vscode/
+
+# Google Cloud Shell specifics (optional)
+.bash_history # Usually not committed
+.ssh/         # Never commit SSH keys!
+
+# Flask / Gunicorn
+*.sqlite3 # If you were using SQLite local DBs
+gunicorn.error.log
+gunicorn.access.log
+
+# Credentials/Sensitive Info (Placeholder, adapt as needed)
+# DO NOT include files containing actual passwords, API keys, etc.
+# The passwords we used in scripts are environment variables, which is better.
+# If you create any local '.env' or 'config.ini' files with secrets, add them here.
+.env
+config.ini
+secrets.json
